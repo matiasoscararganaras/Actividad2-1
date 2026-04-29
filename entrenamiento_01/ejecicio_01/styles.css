@@ -1,0 +1,40 @@
+.imagen {
+    width: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    
+    
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+       
+}
+
+.contenedor{
+   width: 80%;
+   height: 100%; 
+   margin: 0 auto;
+
+   
+}
+
+.imagen img{
+    width: 40%;
+    border-radius: 1em;
+    border: 0.03em solid;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.dato{
+   width: 60%; 
+  
+}

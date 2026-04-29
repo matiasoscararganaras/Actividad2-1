@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor{
+   padding-top: 7%;
+   padding-bottom: 5em;
+   width: 80%;
+   height: 100%; 
+   margin: 0 auto;   
+    
+}
+
+.fijo{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    
+    text-align: center;
+    border: 0.03em solid;
+    z-index: 1000;
+    background-color: white;
+}
+
+.linea-vertical {
+    border-left: 0.12em solid black; 
+    height: 1.87em;                
+    margin: 0 0.62em;             
+    display: inline-block;       
+    vertical-align: middle;     
+}
+.receta{
+    border: 0.03em solid;
+    padding: 1.25em;
+    margin-bottom: 1.87em;
+    border-radius: 5em 0 5em 0;
+}
